@@ -1,0 +1,25 @@
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: blue solid 3px;
+  height: 95vh;
+  width: 95vw;
+}
+
+.articles {
+  display: flex;
+  flex-direction: row;
+  border: darkblue dashed 4px;
+  padding: 5em;
+}
+
+.optelsom {
+  grid-row: 2;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+}

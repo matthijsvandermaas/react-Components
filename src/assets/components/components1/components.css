@@ -1,0 +1,23 @@
+.dashboardItem {
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+}
+
+.dashboardItem.red {
+    border-style: dotted;
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.dashboardItem.green {
+    border-style: dotted;
+    border-color: green;
+    background-color: rgba(0, 128, 0, 0.3);
+}
+
+.dashboardItem.blue {
+    border-style: dotted;
+    border-color: blue;
+    background-color: rgba(0, 0, 255, 0.3);
+}
